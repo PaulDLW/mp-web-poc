@@ -1,0 +1,25 @@
+.moonpay-offramp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sell-crypto-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sell-crypto-button:hover {
+  background-color: #c0392b;
+}
+
+.sell-crypto-button:disabled {
+  background-color: #cf8b84;
+  cursor: not-allowed;
+} 
